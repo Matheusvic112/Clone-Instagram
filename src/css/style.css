@@ -5,37 +5,34 @@
     border: 0;
     list-style: none;
     text-decoration: none;
+    font-family: inherit;
+    font-weight: bolder;
 }
-
 body{
     height: 100vh;
     background-color: ffffff;
 
 }
-
 main {
     padding-bottom: 30px;
 }
-
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 60px;
 }
-
 .container_right{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #fafafa;   
-    width: 360px;
-    height: 360px;
+    width: 348px;
+    height: 331px;
     border: 0.5px solid #ddd ;    
 }
-
 .container_right img{
     margin-bottom: 20px;
 }
@@ -43,6 +40,10 @@ main {
 .container_right img:nth-child(2){
     border-radius: 50%;
     width: 100px;
+}
+
+.container_right img:nth-child(1){
+    width: auto;
 }
 
 .container_right button{
@@ -54,6 +55,9 @@ main {
     color: white;
     border-radius: 6px;
     cursor: pointer;
+}
+.container_right p{
+    font-size: 14px;
 }
 
 footer {
@@ -70,6 +74,7 @@ footer {
 
 .rodape a{
     color: #8e8e8e;
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 13px;
+    padding: 5px;
 }
